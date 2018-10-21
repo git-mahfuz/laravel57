@@ -7,8 +7,6 @@ hooks:
    AfterInstall:
     - location: scripts/installpackages.sh
       runas: root
-    - location: scripts/restartapache.sh
-      runas: root
     - location: scripts/permissions.sh
       runas: root
     - location: scripts/restartapache.sh
